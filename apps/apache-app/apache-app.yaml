@@ -1,0 +1,21 @@
+version: 2023-03
+namespace: apache-app
+
+environment: dev
+
+rbac:
+  create: false
+
+quotas:
+  cpu: "0.5"
+  memory: 256m
+
+application:
+  name: webserver
+  container:
+    image: httpd
+    tag: 2.4
+
+service:
+  type: ClusterIP
+  port: 80
