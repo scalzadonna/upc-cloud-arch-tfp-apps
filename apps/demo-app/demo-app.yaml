@@ -10,6 +10,8 @@ quotas:
   cpu: "1"
   memory: 1Gi
 
+fargate: true
+
 application:
   name: webserver
   container:
