@@ -10,7 +10,7 @@ quotas:
   cpu: "1"
   memory: 1Gi
 
-fargate: true
+fargate: false
 
 application:
   name: webserver
