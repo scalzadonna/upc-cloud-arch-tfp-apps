@@ -7,8 +7,8 @@ rbac:
   create: false
 
 quotas:
-  cpu: "0.25"
-  memory: 256m
+  cpu: "1"
+  memory: 1Gi
 
 application:
   name: webserver
