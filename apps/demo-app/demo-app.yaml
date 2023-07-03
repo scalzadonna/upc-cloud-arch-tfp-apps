@@ -7,8 +7,8 @@ rbac:
   create: false
 
 quotas:
-  cpu: "1"
-  memory: 1Gi
+  cpu: "0.25"
+  memory: 256m
 
 fargate: true
 
