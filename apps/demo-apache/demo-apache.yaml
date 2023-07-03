@@ -1,5 +1,5 @@
 version: 2023-03
-namespace: apache-app
+namespace: demo-apache
 
 environment: dev
 

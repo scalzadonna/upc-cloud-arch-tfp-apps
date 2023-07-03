@@ -1,5 +1,5 @@
 version: 2023-03
-namespace: demo-app
+namespace: demo-nginx
 
 environment: dev
 
