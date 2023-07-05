@@ -21,7 +21,7 @@ spec:
   rules:
 # Using host value here for Certificate Discovery:
 # https://kubernetes-sigs.github.io/aws-load-balancer-controller/v2.2/guide/ingress/cert_discovery/
-    - host: "{{ $.Values.namespace }}.naas.{{ .Values.environment }}.osil.grip.volkswagen.de"
+    - host: "{{ $.Values.namespace }}.platform.{{ .Values.environment }}.tfp.team3"
       http:
         paths:
           {{- range .Values.ingress.paths }}
