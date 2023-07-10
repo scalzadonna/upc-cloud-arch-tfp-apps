@@ -1,7 +1,7 @@
 version: 2023-03
 namespace: demo-fargate
 
-environment: dev2
+environment: dev3
 
 quotas:
   cpu: "1"
