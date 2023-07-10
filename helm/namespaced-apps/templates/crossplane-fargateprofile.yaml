@@ -6,7 +6,7 @@ metadata:
 spec:
   parameters:
     namespace: "{{ .Values.namespace }}"
-    osilEnv: "{{ .Values.environment }}"
+    env: "{{ .Values.environment }}"
   compositionRef:
     name: fargate-profile-platform
 {{- end }}
