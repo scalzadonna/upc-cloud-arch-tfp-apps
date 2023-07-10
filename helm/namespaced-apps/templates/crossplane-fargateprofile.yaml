@@ -1,5 +1,5 @@
 {{- if .Values.fargate -}}
-apiVersion: eks.platform.team3/v1alpha1
+apiVersion: upc.tfp.eks/v1alpha1
 kind: FargateProfile
 metadata:
   name: {{ .Values.namespace }}
