@@ -8,5 +8,5 @@ spec:
     namespace: "{{ .Values.namespace }}"
     env: "{{ .Values.environment }}"
   compositionRef:
-    name: fargate-profile-platform
+    name: fargate-profile-tfp
 {{- end }}
