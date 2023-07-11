@@ -1,0 +1,21 @@
+version: 2023-03
+namespace: demo-apache2
+
+environment: dev
+
+rbac:
+  create: false
+
+quotas:
+  cpu: "1"
+  memory: 1Gi
+
+application:
+  name: webserver
+  container:
+    image: httpd
+    tag: 2.4
+
+service:
+  type: ClusterIP
+  port: 80
